@@ -1,0 +1,1 @@
+msbuild Dense.sln /t:build /logger:FileLogger,Microsoft.Build.Engine;logfile=perf.log;encoding=Unicode;performancesummary
